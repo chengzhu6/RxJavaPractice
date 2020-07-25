@@ -18,6 +18,18 @@ public class MainActivity extends AppCompatActivity {
                 createHandlerActivity();
             }
         });
+
+        findViewById(R.id.rx_activity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                createRxActivity();
+            }
+        });
+    }
+
+    private void createRxActivity() {
+        Intent intent = new Intent(this, RxActivity.class);
+        startActivity(intent);
     }
 
     public void createHandlerActivity() {
