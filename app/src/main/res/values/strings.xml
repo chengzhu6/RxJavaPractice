@@ -4,4 +4,5 @@
     <string name="send_message_a">Send Message A</string>
     <string name="send_message_b">Send Message B</string>
     <string name="rx_activity">RxActivity</string>
+    <string name="start_task">StartTask</string>
 </resources>
